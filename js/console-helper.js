@@ -1,3 +1,5 @@
+// Adds a background color to console.log();  
+
 const prettyLog = (label, val, asTable = false, shouldWarn = false) => {
 	console.log(
 		"%c" + label,
